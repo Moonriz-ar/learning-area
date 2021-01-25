@@ -33,7 +33,7 @@
     function chooseName() {
       let randomNumber = Math.floor(Math.random() * names.length);
       let randomName = names[randomNumber];
-      para.innerHTML = `${randomName}`;
+      para.textContent = `${randomName}`;
     }
 
     chooseName();
