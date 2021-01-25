@@ -30,6 +30,13 @@
     let para = document.createElement('p');
 
     // Add your code here
+    function chooseName() {
+      let randomNumber = Math.floor(Math.random() * names.length);
+      let randomName = names[randomNumber];
+      para.innerHTML = `${randomName}`;
+    }
+
+    chooseName();
 
     // Don't edit the code below here!
 
